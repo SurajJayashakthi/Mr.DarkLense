@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mr. DarkLense - Photography by Suraj Jayashakthi</title>
+    <meta name="description" content="Professional photography by Suraj Jayashakthi - capturing weddings, birthdays, and events in Sri Lanka. Book now for stunning memories!">
+    <meta name="keywords" content="photography, wedding photographer, Sri Lanka, Suraj Jayashakthi, Mr. DarkLense, event photography">
+    <meta name="author" content="Suraj Jayashakthi">
+    <meta property="og:title" content="Mr. DarkLense - Photography by Suraj Jayashakthi">
+    <meta property="og:description" content="Book your photography session today!">
+    <meta property="og:image" content="https://i.postimg.cc/RF90BvDF/hero.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="preloader" class="animate__animated animate__fadeOut" style="animation-delay: 1.5s">
+        <div class="spinner animate__animated animate__pulse animate__infinite"></div>
+        <p class="text-white font-montserrat text-lg">Loading Magic Moments...</p>
+    </div>
+
+    <header class="flex justify-between items-center p-4 sticky top-0 bg-[#1a1a1a] z-40 backdrop-blur-md bg-opacity-90">
+        <div class="text-xl font-bold text-[#DAA520] animate__animated animate__fadeInDown">Mr. DarkLense</div>
+        <nav class="nav-links hidden" aria-label="Main navigation">
+            <a href="#home" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Home</a>
+            <a href="#about" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">About</a>
+            <a href="#services" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Services</a>
+            <a href="#portfolio" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Portfolio</a>
+            <a href="#testimonials" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Testimonials</a>
+            <a href="#tips" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Tips</a>
+            <a href="#contact" class="text-white hover:text-[#DAA520] transition-all duration-300 transform hover:scale-110">Contact</a>
+        </nav>
+        <button class="hamburger md:hidden text-white focus:outline-none" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+        <button id="theme-toggle" class="text-white ml-2 focus:outline-none" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <div class="background-video">
+        <video autoplay muted loop playsinline>
+            <source src="https://your-video-url-here.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <main>
+        <section class="hero relative overflow-hidden" id="home">
+            <div id="hero-particles" class="absolute inset-0 z-0"></div>
+            <div class="hero-swiper swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://i.postimg.cc/GhzGg59G/FB-IMG-1742724615910.jpg" alt="Sunrise Wedding in Ella" class="hero-image w-full h-full object-cover">
+                        <div class="hero-caption absolute bottom-4 left-4 text-white text-sm md:text-lg bg-black bg-opacity-50 px-2 py-1 rounded">Sunrise Wedding in Ella</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://i.postimg.cc/YSYQJ8sM/IMG-20250323-WA0019.jpg" alt="Birthday Celebration in Colombo" class="hero-image w-full h-full object-cover">
+                        <div class="hero-caption absolute bottom-4 left-4 text-white text-sm md:text-lg bg-black bg-opacity-50 px-2 py-1 rounded">Birthday Celebration in Colombo</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://i.postimg.cc/PqvDxfyQ/FB-IMG-1742724256238.jpg" alt="New Year Event in Galle" class="hero-image w-full h-full object-cover">
+                        <div class="hero-caption absolute bottom-4 left-4 text-white text-sm md:text-lg bg-black bg-opacity-50 px-2 py-1 rounded">New Year Event in Galle</div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="hero-overlay relative z-10 text-center py-16">
+                <p class="text-white text-lg md:text-xl mb-4 animate__animated animate__fadeIn">Capture Your Moments with Timeless Beauty</p>
+                <h1 class="text-4xl md:text-6xl font-bold text-[#DAA520] animate__animated animate__zoomIn">Mr. DarkLense</h1>
+                <p class="typewriter text-lg md:text-xl text-white mt-4">Photography by Suraj Jayashakthi</p>
+                <a href="#contact" class="cta-button mt-6 animate__animated animate__pulse animate__infinite open-modal focus:outline-none">Book Now</a>
+            </div>
+        </section>
+
+        <section id="about" data-animation="scroll-slide" class="py-16 relative z-10">
+            <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8">About</h2>
+            <div class="about-content grid md:grid-cols-2 gap-6 max-w-5xl mx-auto px-4">
+                <div class="about-text">
+                    <p class="text-base leading-relaxed">I’m Suraj Jayashakthi, a passionate photographer based in Sri Lanka with over 5 years of experience capturing life’s most precious moments. One of my favorite shoots was a sunrise wedding in Ella, where the golden light created magic I’ll never forget. I’m also proud to have been awarded the "Best Wedding Photographer 2024" by Sri Lanka Photography Awards. From weddings to birthdays, I strive to tell your story through my lens with creativity and heart. My goal is to deliver stunning, timeless photos that you’ll cherish forever.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://i.postimg.cc/RF90BvDF/hero.jpg" alt="Suraj Jayashakthi photographing an event" class="hover:scale-105 transition-transform duration-500 rounded-lg" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" data-animation="scroll-slide" class="py-16 bg-[#1a1a1a] bg-opacity-80 relative z-10">
+            <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8">Services</h2>
+            <div class="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="service-card bg-[#2a2a2a] p-4 rounded-lg">
+                    <i class="fas fa-camera text-3xl text-[#DAA520] mb-4"></i>
+                    <h3 class="text-lg text-[#DAA520] mb-2">Wedding Photography</h3>
+                    <div class="packages mt-4">
+                        <h4 class="text-md text-[#DAA520] mb-2">Packages:</h4>
+                        <div class="package-list">
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box text-[#DAA520] mr-2"></i>
+                                <p>Normal - 50 edited photos, 4 hours - $100</p>
+                            </div>
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box-open text-[#DAA520] mr-2"></i>
+                                <p>Family - 100 edited photos, 8 hours - $200</p>
+                            </div>
+                            <div class="package-item flex items-center">
+                                <i class="fas fa-star text-[#DAA520] mr-2"></i>
+                                <p>VIP - 150+ photos, album, 12 hours - $350</p>
+                            </div>
+                        </div>
+                        <button class="show-more btn hidden md:hidden text-[#DAA520] mt-2 underline" onclick="togglePackages(this)">Show More</button>
+                    </div>
+                </div>
+                <div class="service-card bg-[#2a2a2a] p-4 rounded-lg">
+                    <i class="fas fa-birthday-cake text-3xl text-[#DAA520] mb-4"></i>
+                    <h3 class="text-lg text-[#DAA520] mb-2">Birthday Shoots</h3>
+                    <div class="packages mt-4">
+                        <h4 class="text-md text-[#DAA520] mb-2">Packages:</h4>
+                        <div class="package-list">
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box text-[#DAA520] mr-2"></i>
+                                <p>Normal - 30 edited photos, 2 hours - $50</p>
+                            </div>
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box-open text-[#DAA520] mr-2"></i>
+                                <p>Family - 60 edited photos, 4 hours - $100</p>
+                            </div>
+                            <div class="package-item flex items-center">
+                                <i class="fas fa-star text-[#DAA520] mr-2"></i>
+                                <p>VIP - 100+ photos, prints, 6 hours - $180</p>
+                            </div>
+                        </div>
+                        <button class="show-more btn hidden md:hidden text-[#DAA520] mt-2 underline" onclick="togglePackages(this)">Show More</button>
+                    </div>
+                </div>
+                <div class="service-card bg-[#2a2a2a] p-4 rounded-lg">
+                    <i class="fas fa-users text-3xl text-[#DAA520] mb-4"></i>
+                    <h3 class="text-lg text-[#DAA520] mb-2">Portraits & Events</h3>
+                    <div class="packages mt-4">
+                        <h4 class="text-md text-[#DAA520] mb-2">Packages:</h4>
+                        <div class="package-list">
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box text-[#DAA520] mr-2"></i>
+                                <p>Normal - 40 edited photos, 3 hours - $80</p>
+                            </div>
+                            <div class="package-item flex items-center mb-2">
+                                <i class="fas fa-box-open text-[#DAA520] mr-2"></i>
+                                <p>Family - 80 edited photos, 6 hours - $150</p>
+                            </div>
+                            <div class="package-item flex items-center">
+                                <i class="fas fa-star text-[#DAA520] mr-2"></i>
+                                <p>VIP - 120+ photos, video, 10 hours - $250</p>
+                            </div>
+                        </div>
+                        <button class="show-more btn hidden md:hidden text-[#DAA520] mt-2 underline" onclick="togglePackages(this)">Show More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" data-animation="scroll-slide" class="py-16 relative z-10">
+            <div id="portfolio-particles" class="absolute inset-0 z-0"></div>
+            <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8 relative z-10">Portfolio</h2>
+            <div class="portfolio-filters max-w-5xl mx-auto px-4 mb-6 flex justify-center gap-4">
+                <button class="filter-btn active focus:outline-none" data-filter="all">All</button>
+                <button class="filter-btn focus:outline-none" data-filter="birthday">Birthdays</button>
+                <button class="filter-btn focus:outline-none" data-filter="events">Events</button>
+                <button class="filter-btn focus:outline-none" data-filter="weddings">Weddings</button>
+            </div>
+            <div class="swiper max-w-5xl mx-auto px-4 relative z-10">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-category="birthday">
+                        <a href="https://i.postimg.cc/YSYQJ8sM/IMG-20250323-WA0019.jpg" data-lightbox="portfolio" data-title="Birthday Shoot 1">
+                            <img src="https://i.postimg.cc/YSYQJ8sM/IMG-20250323-WA0019.jpg" alt="Birthday Shoot 1" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-category="birthday">
+                        <a href="https://i.postimg.cc/jSGzgBvM/IMG-20250323-WA0015.jpg" data-lightbox="portfolio" data-title="Birthday Shoot 2">
+                            <img src="https://i.postimg.cc/jSGzgBvM/IMG-20250323-WA0015.jpg" alt="Birthday Shoot 2" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-category="events">
+                        <a href="https://i.postimg.cc/PqvDxfyQ/FB-IMG-1742724256238.jpg" data-lightbox="portfolio" data-title="New Year Event 1">
+                            <img src="https://i.postimg.cc/PqvDxfyQ/FB-IMG-1742724256238.jpg" alt="New Year Event 1" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-category="events">
+                        <a href="https://i.postimg.cc/1txqNxYh/FB-IMG-1742724262765.jpg" data-lightbox="portfolio" data-title="New Year Event 2">
+                            <img src="https://i.postimg.cc/1txqNxYh/FB-IMG-1742724262765.jpg" alt="New Year Event 2" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-category="weddings">
+                        <a href="https://i.postimg.cc/5NqYkW5L/wedding1.jpg" data-lightbox="portfolio" data-title="Wedding Shoot 1">
+                            <img src="https://i.postimg.cc/5NqYkW5L/wedding1.jpg" alt="Wedding Shoot 1" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="swiper-slide" data-category="weddings">
+                        <a href="https://i.postimg.cc/7LqYkW5L/wedding2.jpg" data-lightbox="portfolio" data-title="Wedding Shoot 2">
+                            <img src="https://i.postimg.cc/7LqYkW5L/wedding2.jpg" alt="Wedding Shoot 2" class="w-full rounded-lg object-contain lazy-load high-res" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="testimonials" data-animation="scroll-slide" class="py-16 bg-[#1a1a1a] bg-opacity-80 relative z-10">
+            <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8">Testimonials</h2>
+            <div class="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="testimonial-card bg-[#2a2a2a] p-4 rounded-lg flex items-center">
+                    <img src="https://via.placeholder.com/50" alt="Priya S." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                    <div>
+                        <p class="text-base italic">"Suraj made our wedding unforgettable with his stunning photos!"</p>
+                        <p class="text-sm text-[#DAA520] mt-2">- Priya S.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-[#2a2a2a] p-4 rounded-lg flex items-center">
+                    <img src="https://via.placeholder.com/50" alt="Anusha R." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                    <div>
+                        <p class="text-base italic">"The birthday shots were amazing—highly recommend!"</p>
+                        <p class="text-sm text-[#DAA520] mt-2">- Anusha R.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-[#2a2a2a] p-4 rounded-lg flex items-center">
+                    <img src="https://via.placeholder.com/50" alt="Kamal P." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                    <div>
+                        <p class="text-base italic">"Professional and creative—perfect for our event!"</p>
+                        <p class="text-sm text-[#DAA520] mt-2">- Kamal P.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-in max-w-5xl mx-auto px-4 mt-8">
+                <h3 class="text-center text-xl font-bold text-[#DAA520] mb-4">Featured In</h3>
+                <div class="flex justify-center gap-6">
+                    <img src="https://via.placeholder.com/100x50?text=Sri+Lanka+Weddings" alt="Sri Lanka Weddings Magazine" class="h-12" loading="lazy">
+                    <img src="https://via.placeholder.com/100x50?text=Colombo+Times" alt="Colombo Times" class="h-12" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner py-16 bg-gradient-to-r from-[#DAA520] to-[#b8860b] text-[#121212] relative z-10" data-animation="scroll-slide">
+            <div id="cta-particles" class="absolute inset-0 z-0"></div>
+            <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+                <h2 class="text-3xl font-bold mb-4">Ready to Capture Your Moment?</h2>
+                <p class="text-base mb-6">Book by April 30, 2025, for 10% off! Limited slots available.</p>
+                <a href="#contact" class="cta-button bg-[#121212] text-[#DAA520] hover:bg-[#2a2a2a] open-modal focus:outline-none">Book Now</a>
+            </div>
+        </section>
+
+        <section id="contact" class="relative py-16" data-animation="scroll-slide">
+            <div id="particles-js" class="absolute inset-0 z-0"></div>
+            <div class="relative z-10 max-w-5xl mx-auto px-4">
+                <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8">Contact</h2>
+                <form id="contact-form" class="max-w-md mx-auto mb-6" action="https://formspree.io/f/your-id" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name" class="w-full mb-4">
+                    <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email" class="w-full mb-4">
+                    <textarea name="message" placeholder="Your Message" rows="4" required aria-label="Your Message" class="w-full mb-4"></textarea>
+                    <button type="submit" class="cta-button focus:outline-none relative">
+                        <span class="button-text">Book Your Shoot</span>
+                        <span class="loading-spinner hidden"><i class="fas fa-spinner fa-spin"></i></span>
+                    </button>
+                </form>
+                <div class="contact-info text-center">
+                    <p class="phone"><i class="fas fa-phone"></i> +94 70 620 0613</p>
+                    <p class="email"><i class="fas fa-envelope"></i> info@mr-darklense.com</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Sri Lanka</p>
+                </div>
+                <div class="social-links flex justify-center gap-4 mt-6">
+                    <a href="https://wa.me/+94706200613" target="_blank" class="social-btn whatsapp focus:outline-none" aria-label="WhatsApp" title="Follow on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/share/18XRW8bZVo/" target="_blank" class="social-btn facebook focus:outline-none" aria-label="Facebook" title="Follow on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/@suraj.jayashkthi" target="_blank" class="social-btn tiktok focus:outline-none" aria-label="TikTok" title="Follow on TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" data-animation="scroll-slide" class="py-16 relative z-10">
+            <h2 class="text-center text-2xl md:text-3xl font-bold text-[#DAA520] mb-8">Photography Tips</h2>
+            <div class="max-w-5xl mx-auto px-4">
+                <details class="mb-4">
+                    <summary class="text-[#DAA520] cursor-pointer">Tip 1: Lighting Matters</summary>
+                    <p class="text-base">Good lighting can transform your photos—aim for golden hour shots!</p>
+                </details>
+                <details class="mb-4">
+                    <summary class="text-[#DAA520] cursor-pointer">Tip 2: Posing Naturally</summary>
+                    <p class="text-base">Encourage relaxed poses for authentic, candid moments.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#1a1a1a] py-8 relative z-10 bg-opacity-80" data-animation="scroll-slide">
+        <div class="footer-content max-w-5xl mx-auto grid md:grid-cols-2 gap-6 px-4">
+            <div>
+                <h3 class="text-[#DAA520] text-lg mb-2">Mr. DarkLense</h3>
+                <p class="text-sm">Capturing life's finest moments.</p>
+            </div>
+            <div class="footer-links flex flex-col md:flex-row justify-center gap-4">
+                <a href="#home" class="hover:text-[#DAA520] text-sm focus:outline-none">Home</a>
+                <a href="#about" class="hover:text-[#DAA520] text-sm focus:outline-none">About</a>
+                <a href="#services" class="hover:text-[#DAA520] text-sm focus:outline-none">Services</a>
+                <a href="#portfolio" class="hover:text-[#DAA520] text-sm focus:outline-none">Portfolio</a>
+                <a href="#testimonials" class="hover:text-[#DAA520] text-sm focus:outline-none">Testimonials</a>
+                <a href="#tips" class="hover:text-[#DAA520] text-sm focus:outline-none">Tips</a>
+                <a href="#contact" class="hover:text-[#DAA520] text-sm focus:outline-none">Contact</a>
+            </div>
+        </div>
+        <p class="text-center mt-6 text-[#cccccc] text-sm">© 2025 Mr. DarkLense. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to Top" class="fixed bottom-4 right-4 z-50 focus:outline-none">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="booking-modal" class="fixed inset-0 bg-black bg-opacity-75 hidden z-50 flex items-center justify-center">
+        <div class="bg-[#1a1a1a] p-6 rounded-lg max-w-sm w-full relative">
+            <button id="close-modal" class="absolute top-2 right-2 text-[#DAA520] focus:outline-none" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            <h3 class="text-[#DAA520] text-xl mb-4">Quick Booking</h3>
+            <form id="quick-book-form" action="https://formspree.io/f/your-id" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name" class="w-full mb-4">
+                <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email" class="w-full mb-4">
+                <select name="package" required aria-label="Select Package" class="w-full mb-4 p-2 border-2 border-[#DAA520] bg-[#1a1a1a] text-white">
+                    <option value="">Select Package</option>
+                    <option value="normal">Normal Package</option>
+                    <option value="family">Family Package</option>
+                    <option value="vip">VIP Package</option>
+                </select>
+                <input type="text" name="event" placeholder="Event Type" required aria-label="Event Type" class="w-full mb-4">
+                <button type="submit" class="cta-button w-full focus:outline-none relative">
+                    <span class="button-text">Submit</span>
+                    <span class="loading-spinner hidden"><i class="fas fa-spinner fa-spin"></i></span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+</body>
+</html>
